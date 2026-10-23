@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Servio — Home services, booked in a tap</title>
+    <meta name="description" content="Book verified professionals for cleaning, AC repair, salon at home, plumbing, laundry and more. Upfront prices, live slots and a 7-day re-work guarantee." />
+    <meta name="theme-color" content="#3B5FE9" />
+    <meta name="color-scheme" content="light" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://servio.app/" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/icons/icon-180.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Servio" />
+    <meta property="og:title" content="Servio — Home services, booked in a tap" />
+    <meta property="og:description" content="Verified professionals for cleaning, repairs, beauty, laundry and car care. Upfront prices and live slots." />
+    <meta property="og:image" content="https://servio.app/icons/icon-512.png" />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Organization","name":"Servio","url":"https://servio.app","logo":"https://servio.app/icons/icon-512.png","contactPoint":{"@type":"ContactPoint","telephone":"+91-98765-43210","contactType":"customer support","email":"support@servio.app"}}
+    </script>
+    <style>
+      /* Inline splash shown until the first route chunk renders (no layout shift, no FOUC). */
+      #boot{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#F6F7FB}
+      #boot span{width:56px;height:56px;border-radius:16px;background:linear-gradient(#3B5FE9,#2338A3);box-shadow:0 10px 28px rgb(59 95 233/.32);animation:boot 1.2s ease-in-out infinite}
+      @keyframes boot{50%{transform:scale(.9);opacity:.7}}
+      @media (prefers-reduced-motion:reduce){#boot span{animation:none}}
+    </style>
+  </head>
+  <body>
+    <div id="root"><div id="boot" aria-label="Loading Servio" role="status"><span></span></div></div>
+    <noscript>Servio needs JavaScript to book services. Please enable it in your browser.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
