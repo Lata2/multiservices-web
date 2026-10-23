@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /account
+Disallow: /bookings
+Disallow: /checkout
+Disallow: /provider
+Disallow: /delivery
+Disallow: /admin
+
+Sitemap: https://servio.app/sitemap.xml
